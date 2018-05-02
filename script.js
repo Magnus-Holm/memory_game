@@ -1,6 +1,8 @@
 /*jslint browser, for, this*/
 
 document.addEventListener('DOMContentLoaded', function () {
+    'use strict'
+
     var tileImgs = ['breath', 'space', 'time', 'light', 'void', 'heart', 'blood', 'mind', 'hope', 'life', 'doom', 'rage'];
     var board = document.getElementById('board');
     var tilesFlipped = [];
@@ -154,4 +156,4 @@ document.addEventListener('DOMContentLoaded', function () {
     board.addEventListener('touchstart', flipTile);
     document.getElementById('message').getElementsByTagName('button')[0].addEventListener('click', newGame);
     document.getElementById('playGame').addEventListener('submit', drawBoard);
-})
+});
