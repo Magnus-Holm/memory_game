@@ -22,9 +22,6 @@ var currentSongName = document.getElementById('currentSongName');
 var song_index = Math.floor(Math.random() * 4);
 
 // Sets the default song and song name
-currentSong.src = songs[song_index];
-currentSongName.innerHTML = "Current Song : " + songName[song_index];
-
 
 function drawBoard(event) {
     'use strict';
