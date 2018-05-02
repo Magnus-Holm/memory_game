@@ -1,4 +1,4 @@
-CACHE MAINFEST
+CACHE MANIFEST
 index.html
 style.css
 script.js
