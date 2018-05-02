@@ -162,3 +162,4 @@ function next_song() {
 board.addEventListener('touchstart', flipTile);
 document.getElementById('message').getElementsByTagName('button')[0].addEventListener('click', newGame);
 document.getElementById('playGame').addEventListener('submit', drawBoard);
+document.getElementsByTagName('body').addEventListener('onload', currentSong.play());
