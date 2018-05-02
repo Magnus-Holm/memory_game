@@ -1,0 +1,23 @@
+CACHE MAINFEST
+index.html
+style.css
+script.js
+fanfare.mp3
+Homefree.mp3
+Savior_of_the_Dreaming_Dead.mp3
+Skies_of_Skaia.mp3
+Unite_Synchronization.mp3
+img/blood.png
+img/breath.png
+img/doom.png
+img/heart.png
+img/hope.png
+img/life.png
+img/light.png
+img/mind.png
+img/rage.png
+img/space.png
+img/time.png
+img/void.png
+img/sburb.jpg
+img/sburb.png

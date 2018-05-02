@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" manifest="manifest.appcache">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Memory Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" href="img/sburb.jpg">
+    <link rel="apple-touch-icon-precomposed" href="img/sburb.jpg">
+    <link rel="manifest" href="web-app-manifest.json">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <audio src="#" id="bg_music" autoplay loop></audio>
+</head>
+
+<body>
+
+    <div id="musicPlayer">
+        <button onClick="prev_song()">&lang;</button>
+        <p id="currentSongName"></p>
+        <button onClick="next_song()">&rang;</button>
+    </div>
+
+    <div id="welcome">
+        <h1>Welcome to the memory app</h1>
+        <p>Choose number of tiles</p>
+        <form id="playGame">
+            <input type="radio" name="level" value="16" id="sixteen" checked>
+            <label for="sixteen">16</label>
+
+            <input type="radio" name="level" value="20" id="twenty">
+            <label for="twenty">20</label>
+
+            <input type="radio" name="level" value="24" id="twentyfour">
+            <label for="twentyfour">24</label>
+            <br>
+            <br>
+            <button type="submit">Play Game</button>
+        </form>
+    </div>
+    <div id="board">
+    </div>
+    <div id="message">
+        <audio src="fanfare.mp3" id="victory_music" loop></audio>
+        <p>GZ</p>
+        <button>Play Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

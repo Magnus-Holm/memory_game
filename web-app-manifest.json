@@ -1,0 +1,15 @@
+{
+    "name": "Memory App",
+    "icons": [{
+        "src": "img/sburb.jpg",
+        "sizes": "114*114",
+        "type": "image/jpg"
+    }],
+    "theme-color": "#9E9E9E",
+    "background-color": "#9E9E9E",
+    "scope": "xxxx/memory_game/",
+    "start-url": "xxxx/memory_game/index.html",
+    "display": "stand-alone",
+    "orientation": "portrait"
+
+}
