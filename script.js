@@ -21,6 +21,7 @@ var currentSongName = document.getElementById('currentSongName');
 // Keeps track of what song is playing and the name displayed
 var song_index = 0;
 
+currentSong.play();
 // Sets the default song and song name
 
 function drawBoard(event) {
@@ -162,4 +163,3 @@ function next_song() {
 board.addEventListener('touchstart', flipTile);
 document.getElementById('message').getElementsByTagName('button')[0].addEventListener('click', newGame);
 document.getElementById('playGame').addEventListener('submit', drawBoard);
-document.getElementsByTagName('body').addEventListener('onload', currentSong.play());
