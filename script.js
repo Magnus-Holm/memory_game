@@ -19,7 +19,7 @@ var currentSong = document.getElementById('bg_music');
 var currentSongName = document.getElementById('currentSongName');
 
 // Keeps track of what song is playing and the name displayed
-var song_index = Math.floor(Math.random() * 4);
+var song_index = 0;
 
 // Sets the default song and song name
 
